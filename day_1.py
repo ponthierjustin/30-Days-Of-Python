@@ -23,3 +23,18 @@ print(type(['Asabeneh', 'Python', 'Finland']))
 print(type("Justin Ponthier"))
 print(type("Justin"))
 print(type("United States of America"))
+
+# Python Examples
+print(type(5)) # Integer
+print(type(5.5)) # Float
+print(type(2 + 3j)) # Complex
+print(type("Justin Ponthier")) # String
+print(type(True)) # Boolean
+print(type(['Murtaza', 'Justin', 'Adnan'])) # List
+print(type((1.1, 1.13, 1.2))) # Tuple
+print(type({1.1, 1.13, 1.2})) # Set
+print(type({'name': 'Justin Ponthier'})) #Dictionary
+
+# Euclidian distance
+
+print()
