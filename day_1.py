@@ -1,3 +1,5 @@
+import math
+
 # Python Operations
 print(3 + 4) #addition
 print(3 - 4) #subtraction
@@ -33,8 +35,10 @@ print(type(True)) # Boolean
 print(type(['Murtaza', 'Justin', 'Adnan'])) # List
 print(type((1.1, 1.13, 1.2))) # Tuple
 print(type({1.1, 1.13, 1.2})) # Set
-print(type({'name': 'Justin Ponthier'})) #Dictionary
+print(type({'name': 'Justin Ponthier \n'})) #Dictionary
 
 # Euclidian distance
 
-print()
+#https://www.w3schools.com/python/ref_math_dist.asp
+print(math.dist([2,3], [10,8])) #9.43398113205660 
+
