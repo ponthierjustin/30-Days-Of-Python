@@ -1,3 +1,6 @@
+import math
+from math import pi
+
 age = 25  # 1
 height = 5.10  # 2
 complex_number = 2 + 3j  # 3
@@ -33,10 +36,40 @@ circum_of_circle = 2 * pi * r
 print('The area of the circle is: ' + str(area_of_circle))
 print('The circumference of the circle is: ' + str(circum_of_circle))
 
-# 8 - 10
+# 8 - 11
 slope = (10 - 2) / (6 - 2)
 euc_dist = (math.dist([2, 2], [6, 10]))
 print(slope)
 print(euc_dist)
 compare_slopes = slope - euc_dist
 print(compare_slopes)
+
+# 12
+python_len = len('python')
+dragon_len = len('dragon')
+print(python_len != dragon_len)
+
+#13
+print('on' in 'python')
+print('on' in 'dragon')
+
+#14
+print('jargon' in 'I hope this courseis not full of jargon')
+
+#15
+
+
+#16
+print(type(str(float(len('python')))))
+
+#17 if num % 2 == 0 then the number is even. ELSE the number is odd
+
+#18
+print(7 // 3 == 2.7)
+
+#19
+print('10' == 10)
+
+#20
+print(int(9.8) == 10)
+
