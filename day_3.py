@@ -73,3 +73,15 @@ print('10' == 10)
 #20
 print(int(9.8) == 10)
 
+#Q21
+hours = int(input('Enter hours: '))
+rate = int(input('Enter rate per hour: '))
+print('Your weekly earning is: ', hours * rate)
+
+#Q22
+years = int(input("Enter number of years you have lived: "))
+print("You have lived for {} seconds".format(years*365*24*60*60))
+
+#Q23
+print(' \n 1 1 1 1 1 \n 2 1 2 4 8 \n 3 1 3 9 27 \n 4 1 4 16 64 \n 5 1 5 25 125')
+
