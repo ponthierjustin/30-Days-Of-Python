@@ -30,3 +30,14 @@ print(company.lower())
 print(company.capitalize())
 print(company.title())
 print(company.swapcase())
+
+# Q9
+first_word_slice = company[7:]
+print(first_word_slice)
+
+# Q10
+print(company.find('Coding'))
+
+# Q11 # Q12
+print(company.replace('Coding', "Python").replace('All', 'Everyone'))
+
