@@ -41,3 +41,37 @@ print(company.find('Coding'))
 # Q11 # Q12
 print(company.replace('Coding', "Python").replace('All', 'Everyone'))
 
+# Q13
+print(company.split(' '))
+
+# Q14
+companies = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+print(companies.split(', '))
+
+# Q15
+print(company[0])
+
+# Q16 
+print(company[-1])
+
+# Q17
+print(company[10])
+
+# Q18 - 19
+'AFE'
+'CFA'
+
+# Q20 - 22
+print(company.find('C'))
+print(company.find('F'))
+print(company.rfind('i'))
+
+# Q23 - 27
+practice = 'You cannot end a sentence with because because because is a conjunction'
+print(practice.index('because'))
+print(practice.rfind('because'))
+print(practice[31:54])
+
+# Q28
+print(company.startswith('Coding'))
+print(company.endswith('coding'))
