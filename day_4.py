@@ -72,6 +72,40 @@ print(practice.index('because'))
 print(practice.rfind('because'))
 print(practice[31:54])
 
-# Q28
+# Q28 - 29
 print(company.startswith('Coding'))
 print(company.endswith('coding'))
+
+# Q30
+print('   Coding For All      '.strip(' '))
+
+# Q31
+print('30DaysOfPython'.isidentifier())
+print('thirty_days_of_python'.isidentifier())
+
+# Q32
+libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print('# '.join(libraries))
+
+# Q33
+print('I am enjoying this challenge. \nI just wonder what is next. \n')
+
+# Q34
+print('Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki\n')
+
+# Q35
+radius = 10
+area = 3.14 * radius ** 2
+print('The area of a circle with radius {} is {} meters square.\n'.format(radius, area))
+
+# Q36
+a = 8
+b = 6
+
+print('{} + {} = {}'.format(a, b, a + b))
+print('{} - {} = {}'.format(a, b, a - b))
+print('{} * {} = {}'.format(a, b, a * b))
+print('{} / {} = {:.2f}'.format(a, b, a / b)) 
+print('{} % {} = {}'.format(a, b, a % b))
+print('{} // {} = {}'.format(a, b, a // b))
+print('{} ** {} = {}'.format(a, b, a ** b))
