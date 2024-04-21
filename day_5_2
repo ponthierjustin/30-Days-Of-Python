@@ -1,0 +1,31 @@
+# Justin
+# 4/21/24
+import statistics
+
+
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort()
+print(ages[0])
+print(ages[-1])
+
+ages.insert(0, ages[0])
+ages.append(ages[-1])
+
+median_age = statistics.median(ages)
+
+print(median_age)
+
+average_age = sum(ages) / len(ages)
+
+print(average_age)
+
+print(ages[-1] - ages[0])
+
+print(abs(ages[0] - average_age))
+
+print(abs(ages[-1] - average_age))
+
+from countries import *
+
+
+
