@@ -24,3 +24,24 @@ print(it_companies)
 
 #Discard will not raise an error even if the item is not found
 
+a_b = A.union(B)
+
+print(a_b)
+
+print(A.intersection(B))
+
+print(A.issubset(B))
+
+print(A.isdisjoint(B))
+
+b_a = B.union(A)
+
+print(b_a)
+
+print(A.symmetric_difference(B))
+
+del a_b
+del b_a
+del A
+del B
+
