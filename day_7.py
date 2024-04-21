@@ -45,3 +45,21 @@ del b_a
 del A
 del B
 
+age_set = set(age)
+
+print(len(age))
+print(len(age_set))
+# List is bigger
+
+# String: A collection of one or more characters under a single or double quote.
+# List: Python list is an ordered collection which allows to store different data type items. 
+# Tuple: A tuple is an ordered collection of different data types like list but tuples can not be modified once they are created.
+# Set: A set is a collection of data types similar to list and tuple. Unlike list and tuple, set is not an ordered collection of items
+
+teacher = 'I am a teacher and I love to inspire and teach people.'
+
+teacher_list = teacher.split(' ')
+
+teacher_set = set(teacher_list)
+
+print(teacher_set)
