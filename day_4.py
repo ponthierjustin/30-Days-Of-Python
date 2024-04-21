@@ -91,7 +91,7 @@ print('# '.join(libraries))
 print('I am enjoying this challenge. \nI just wonder what is next. \n')
 
 # Q34
-print('Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki\n')
+print('Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki\n') 
 
 # Q35
 radius = 10
