@@ -1,13 +1,12 @@
 import math
 #Testing code
 
+fruits = ['banana', 'orange', 'mango', 'lemon']
 
-a = int(input('Enter number one: '))
-b = int(input('Enter number two: '))
+input_fruits = input('Enter a fruit to the list: ')
 
-if a > b:
-    print('a is greate')
-elif a > b:
-    print('a is smaller than b')
+if input_fruits not in fruits:
+    fruits.append(input_fruits)
+    print(fruits)
 else:
-    print('a is equal to b')
+    print('That fruit is already on the list!!!')
