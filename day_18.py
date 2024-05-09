@@ -32,3 +32,14 @@ print(is_valid_variable('first_name'))
 print(is_valid_variable('first-name')) 
 print(is_valid_variable('1first_name'))
 print(is_valid_variable('firstname'))
+
+
+sentence = '''%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?'''
+
+cleaned_text = "I am a teacher and I love teaching There is nothing as more rewarding as educating and empowering people I found teaching more interesting than any other jobs Does this motivate you to be a teacher"
+
+most_frequent_words = [(3, 'I'), (2, 'teaching'), (2, 'teacher')]
+
+print(cleaned_text)
+
+print(most_frequent_words)
