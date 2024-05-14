@@ -109,7 +109,6 @@ class PersonAccount:
     def account_balance(self):
         return self.total_income() - self.total_expense()
 
-# Example usage
 account = PersonAccount("John", "Doe")
 account.add_income(500, "Freelance Work")
 account.add_income(1000, "Salary")
